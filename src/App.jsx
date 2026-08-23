@@ -15,9 +15,11 @@ function App() {
           <p className="post-meta">
             {post.date} &middot; {post.author}
           </p>
-          {post.content.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
+          <p className='post-content'>
+            {post.content.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </p>
         </article>
       ))}
     </main>
