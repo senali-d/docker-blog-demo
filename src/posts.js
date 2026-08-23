@@ -1,7 +1,7 @@
 const posts = [
   {
     id: 1,
-    title: 'What Is Docker and Why It Matters',
+    title: 'What Is Docker and Why It Matters.',
     date: '2026-08-10T00:00:00.000Z',
     author: 'Dev Team',
     content: [
