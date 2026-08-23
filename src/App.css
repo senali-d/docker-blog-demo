@@ -1,0 +1,45 @@
+.page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  text-align: left;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.subtitle {
+  color: var(--text);
+  margin-top: 8px;
+}
+
+.post {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+}
+
+.post:first-of-type {
+  border-top: none;
+}
+
+.post h2 {
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.post p:not(.post-meta) {
+  margin-bottom: 16px;
+  line-height: 160%;
+}
+
+.post p:last-child {
+  margin-bottom: 0;
+}
