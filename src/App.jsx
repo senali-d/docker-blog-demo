@@ -10,16 +10,19 @@ function App() {
       </header>
 
       {posts.map((post) => (
-        <article key={post.id} className="post">
-          <h2>{post.title}</h2>
+        <article key={post.id} className="post" id={`post-${post.id}`}>
+          <h2 className="post-title">
+            <a href={`#post-${post.id}`}>{post.title}</a>
+          </h2>
           <p className="post-meta">
-            {post.date} &middot; {post.author}
+            <span className="post-date">{post.date}</span>
+            <span className="post-author">{post.author}</span>
           </p>
-          <p className='post-content'>
+          <div className="post-content">
             {post.content.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
-          </p>
+          </div>
         </article>
       ))}
     </main>

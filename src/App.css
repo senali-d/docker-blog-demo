@@ -24,9 +24,14 @@
   border-top: none;
 }
 
-.post h2 {
+.post-title {
   text-align: left;
   margin-bottom: 4px;
+}
+
+.post-title a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .post-meta {
@@ -35,11 +40,16 @@
   margin-bottom: 16px;
 }
 
-.post p:not(.post-meta) {
+.post-meta .post-author::before {
+  content: '\00b7';
+  margin: 0 6px;
+}
+
+.post-content p {
   margin-bottom: 16px;
   line-height: 160%;
 }
 
-.post p:last-child {
+.post-content p:last-child {
   margin-bottom: 0;
 }

@@ -2,7 +2,7 @@ const posts = [
   {
     id: 1,
     title: 'What Is Docker and Why It Matters',
-    date: '2026-08-10',
+    date: '2026-08-10T00:00:00.000Z',
     author: 'Dev Team',
     content: [
       'Docker is a platform for building, shipping, and running applications inside lightweight, isolated environments called containers. Instead of installing an application directly on a machine and hoping the environment matches production, you package the application together with everything it needs to run - code, runtime, system libraries, and configuration - into a single container image.',
@@ -14,7 +14,7 @@ const posts = [
   {
     id: 2,
     title: 'Docker Images vs Containers Explained',
-    date: '2026-08-15',
+    date: '2026-08-15T00:00:00.000Z',
     author: 'Dev Team',
     content: [
       'One of the most common points of confusion for people new to Docker is the difference between an image and a container. The short version: an image is a blueprint, and a container is a running instance of that blueprint.',
@@ -27,7 +27,7 @@ const posts = [
   {
     id: 3,
     title: 'Getting Started with Dockerfile and Docker Compose',
-    date: '2026-08-20',
+    date: '2026-08-20T00:00:00.000Z',
     author: 'Dev Team',
     content: [
       'A Dockerfile is a plain text file containing step-by-step instructions for building a Docker image. Each instruction adds a new layer to the image. A minimal Dockerfile for a Node.js app might start from a base image, copy in the application code, install dependencies, and define the command used to start the app.',
