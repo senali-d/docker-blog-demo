@@ -1,11 +1,11 @@
 const posts = [
   {
     id: 1,
-    title: 'What Is Docker and Why It Matters.',
+    title: 'What Is Docker and Why It Matters',
     date: '2026-08-10T00:00:00.000Z',
     author: 'Dev Team',
     content: [
-      'docker is a platform for building, shipping, and running applications inside lightweight, isolated environments called containers. Instead of installing an application directly on a machine and hoping the environment matches production, you package the application together with everything it needs to run - code, runtime, system libraries, and configuration - into a single container image.',
+      'Docker, is a platform for building, shipping, and running applications inside lightweight, isolated environments called containers. Instead of installing an application directly on a machine and hoping the environment matches production, you package the application together with everything it needs to run - code, runtime, system libraries, and configuration - into a single container image.',
       'Traditional virtual machines virtualize an entire operating system, which makes them heavy and slow to start. Containers, on the other hand, share the host machine\'s kernel and only isolate the application layer. This makes them dramatically faster to start, lighter on resources, and easier to move between environments.',
       'The core benefits of Docker come down to three things: portability (a container runs the same way on a laptop, a test server, or in the cloud), consistency (the classic "it works on my machine" problem disappears because the environment travels with the app), and isolation (each container has its own filesystem and dependencies, so apps don\'t interfere with each other).',
       'For teams building and deploying software, Docker has become a foundational tool because it removes an entire category of environment-related bugs and makes deployments predictable and repeatable.',
