@@ -18,7 +18,7 @@ function App() {
             <span className="post-date">{post.date}</span>
             <span className="post-author">{post.author}</span>
           </p>
-          <div className="post-content-2">
+          <div className="post-content-3">
             {post.content.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
